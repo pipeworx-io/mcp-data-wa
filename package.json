@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-data-wa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Washington State Open Data — US government open data (data.wa.gov) via the Socrata SoQL API: state agencies, health, licensing, labor & environment. Keyless.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-data-wa": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "data-wa"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-data-wa"
+    "url": "git+https://github.com/pipeworx-io/mcp-data-wa.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-7c6ab787c72f9f4ad22cc36128b915023aeb411df13d330ce03bdc3f36f2329d",
+    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
   }
 }

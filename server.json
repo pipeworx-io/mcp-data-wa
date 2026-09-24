@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/data-wa",
   "title": "Data Wa",
-  "description": "Washington State Open Data — US government open data (data.wa.gov) via the Socrata SoQL API: state agencies, health, licensing, labor & environment. Keyless.",
-  "version": "0.1.0",
+  "description": "Washington State Open Data — US government open data (data.wa.gov) via the Socrata SoQL API: state…",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/data-wa",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-data-wa",
