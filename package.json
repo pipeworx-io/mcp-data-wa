@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-data-wa",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Washington State Open Data — US government open data (data.wa.gov) via the Socrata SoQL API: state agencies, health, licensing, labor & environment. Keyless.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "data-wa",
     "gatewaySlug": "data-wa",
-    "sourceHash": "v1-d65cc3e8c78d6f93d67aab839416c5f36a32c53058b9df56a3793cb3e8632a48",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-ce7ec5baa016d1740928924d90f5eb1dc0ac2ff23fbd899128889920951dfc01",
+    "sourceCommit": "5ce1a05186d46479e23865c66bdb8579d8de445e"
   }
 }
